@@ -1861,6 +1861,9 @@ body.cs-open #cs-navigation {
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+  .cs-logo-img{
+    display: none;
+  }
   
   #cs-footer-840 {
     /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
