@@ -34,7 +34,7 @@
             <div class="cs-ul-wrapper">
                 <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                     <li class="cs-li">
-                        <a href="index.html" class="cs-li-link cs-active">
+                        <a href="" class="cs-li-link cs-active">
                             Home
                         </a>
                     </li>
@@ -108,72 +108,102 @@ for (const item of dropDowns) {
 </script>
 
 <!-- ============================================ -->
-<!--                   Contact                    -->
+<!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="contact-1107">
+<section id="hero-82">
     <div class="cs-container">
+        <h1 class="cs-title">Great Services at Great Prices</h1>
+        <p class="cs-text">
+            At our auto repair shop, we offer a variety of automotive services to cater to your vehicle's needs. From routine maintenance like oil changes to more complex tasks such as engine diagnostics, we've got you covered. Your vehicle's performance and your satisfaction are our main concerns.
+        </p>
+        <a href="" class="cs-button-solid">Our Services</a>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" src="images/Capture.PNG">
+        <source media="(min-width: 601px)" src="images/Capture.PNG">
+        <img loading="lazy" decoding="async" src="images/Capture.PNG" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+
+
+<!--                   
+    These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches.  Typically after the .cs-title or .cs-text. They are used to add more design flair to a Stitch as well as convey more information in a different way.
+-->
+
+<section id="listbox">
+
+    
+</section>                       
+                                
+
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-250">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg" alt="hiker" width="522" height="522" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
         <div class="cs-content">
-            <span class="cs-topper">Contact Us</span>
-            <h2 class="cs-title">Make An Appointment</h2>
-            <!--Form-->
-            <form class="cs-form" id="cs-form-1107" name="Contact Form" method="post">
-                <label class="cs-label">
-                    Name
-                    <input class="cs-input" required type="text" id="name-1107" name="name" placeholder="Name">
-                </label>
-                <label class="cs-label cs-email">
-                    Email
-                    <input class="cs-input" required type="email" id="email-1107" name="email" placeholder="Email">
-                </label>
-                <label class="cs-label cs-phone">
-                    Phone
-                    <input class="cs-input" required type="phone" id="phone-1107" name="phone" placeholder="Phone">
-                </label>
-                <label class="cs-label">
-                    Message
-                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1107" placeholder="Write message..."></textarea>
-                </label>
-                <button class="cs-button-solid cs-submit" type="submit">Make an Appointment</button>
-            </form>
+            <div class="listboxstuff">
+                <h2>Our Tire and Wheel Services:</h2>
+                <ul>
+                    <li>Tire Installation: Mounting and installing new tires onto your vehicle's wheels.</li>
+                    <li>Tire Balancing: Balancing the weight of the tire and wheel assembly to prevent vibrations and uneven wear.</li>
+                    <li>Tire Rotation: Moving tires to different positions on your vehicle to promote even wear and extend tire life.</li>
+                    <li>Tire Repair: Patching or plugging punctured tires to fix minor damage and maintain tire integrity.</li>
+                    <li>Wheel Alignment: Aligning the wheels to manufacturer specifications to improve handling and extend tire life.</li>
+                    <li>Tire Pressure Check: Ensuring proper tire inflation to optimize fuel efficiency, tire life, and safety.</li>
+                    <li>Tire Inspection: Thoroughly examining tires for tread wear, damage, and signs of irregular wear patterns.</li>
+                    <li>Tire Sales: Offering a selection of new and used tires for purchase.</li>
+                    <li>Custom Wheel Installation: Installing aftermarket wheels and rims to enhance the appearance and performance of your vehicle.</li>
+                    <li>Winter Tire Services: Swapping between winter and summer tires and offering winter tire installation.</li>
+                    <li>Performance Tire Upgrades: Installing high-performance or specialty tires tailored to specific driving needs.</li>
+                    
+                  </ul>
+            </div>
         </div>
-        <ul class="cs-ul">
-            <li class="cs-li">
-                <picture class="cs-icon-wrapper">
-                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-phone.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
-                </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-header">Phone</span>
-                    <a href="tel:888-4565-789
-                    " class="cs-link">+1 (360) 653-6223
-                    </a>
-                    <a href="tel:888-4565-789
-                    " class="cs-link">
-                    </a>
-                </div>
-            </li>
-            <li class="cs-li">
-                <picture class="cs-icon-wrapper">
-                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-email.svg" alt="mail icon" class="cs-icon" width="40" height="40" decoding="async">
-                </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-header">Email</span>
-                    <a href="mailto:aaronsautomotive@outlook.com" class="cs-link">aaronsautomotive@outlook.com</a>
-                    <a href="mailto:" class="cs-link"></a>
-                </div>
-            </li>
-            <li class="cs-li">
-                <picture class="cs-icon-wrapper">
-                    <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-pin.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
-                </picture>
-                <div class="cs-flex-group">
-                    <span class="cs-header">Address</span>
-                    <a href="" class="cs-link">7625 44th Ave NE, Marysville, WA 98270</a>
-                </div>
-            </li>
-        </ul>
+    </div>
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/mountains.jpg" alt="hiker" width="522" height="522" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <div class="listboxstuff">
+                <h2>Our Tire and Wheel Services:</h2>
+                <ul>
+                    <li>Tire Installation: Mounting and installing new tires onto your vehicle's wheels.</li>
+                    <li>Tire Balancing: Balancing the weight of the tire and wheel assembly to prevent vibrations and uneven wear.</li>
+                    <li>Tire Rotation: Moving tires to different positions on your vehicle to promote even wear and extend tire life.</li>
+                    <li>Tire Repair: Patching or plugging punctured tires to fix minor damage and maintain tire integrity.</li>
+                    <li>Wheel Alignment: Aligning the wheels to manufacturer specifications to improve handling and extend tire life.</li>
+                    <li>Tire Pressure Check: Ensuring proper tire inflation to optimize fuel efficiency, tire life, and safety.</li>
+                    <li>Tire Inspection: Thoroughly examining tires for tread wear, damage, and signs of irregular wear patterns.</li>
+                    <li>Tire Sales: Offering a selection of new and used tires for purchase.</li>
+                    <li>Custom Wheel Installation: Installing aftermarket wheels and rims to enhance the appearance and performance of your vehicle.</li>
+                    <li>Winter Tire Services: Swapping between winter and summer tires and offering winter tire installation.</li>
+                    <li>Performance Tire Upgrades: Installing high-performance or specialty tires tailored to specific driving needs.</li>
+                    
+                  </ul>
+            </div>
+        </div>
     </div>
 </section>
+
                                 
 
 <!-- ============================================ -->

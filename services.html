@@ -50,7 +50,7 @@
                     </li>
                     <li class="cs-li">
                         <a href="" class="cs-li-link">
-                            Get a Quote
+                            Deals
                         </a>
                     </li>
                     <li class="cs-li">
@@ -107,97 +107,106 @@ for (const item of dropDowns) {
                                 
 </script>
 
+
+
 <!-- ============================================ -->
 <!--                   Services                   -->
-<!-- ============================================ -->
+<!-- ============================================ -->        
 
-<section id="services-1179">
+<section id="services-1191">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Our services</span>
-            <h2 class="cs-title">Together We Can Restore</h2>
+            <span class="cs-topper">Other services</span>
+            <h2 class="cs-title">We Provide Quality Auto Repair Services</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat.
+                On just about any make or model, we provide the services necesary to ensure your vehicle is running smoothly.
             </p>
         </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg"
-                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
-                </picture>
-                <h2 class="cs-h2">Tire and wheel</h2>
-                <p class="cs-item-text">
-                    What is Check Engine Light? There are many variations of passages of Lorem Ipsum available, but the
-                    majority
-                    have...
-                </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg"
-                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
-                </picture>
-                <h2 class="cs-h2">Electrical system</h2>
-                <p class="cs-item-text">
-                    Our featured services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia
-                    consequuntur...
-                </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg"
-                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
-                </picture>
-                <h2 class="cs-h2">System service</h2>
-                <p class="cs-item-text">
-                    Our services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                    consequuntur
-                    magni...
-                </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-gear.svg"
-                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
-                </picture>
-                <h2 class="cs-h2">Engine diagnostics</h2>
-                <p class="cs-item-text">
-                    What is Check Engine Light? There are many variations of passages of Lorem Ipsum available, but the
-                    majority
-                    have...
-                </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-        </ul>
+        <!--Placed in a wrapper div so we can position the car absolutely inside the container to be centered in the middle of the list on desktop-->
+        <div class="cs-wrapper">
+            <!--Car-->
+            <picture class="cs-image">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="images\coolcar2.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="images\coolcar2.jpg">
+                <img loading="lazy" decoding="async" src="images\coolcar2.jpg" alt="car" width="510" height="193" aria-hidden="true">
+            </picture>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon"
+                                src="svgs/testimage.svg"
+                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Check Engine Light</h3>
+                        <p class="cs-item-text">At Aaron's Automotive we provide all of the expertise and parts needed to keep your engine running happily and at peak efficiency.</p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="svgs/brakeblue.svg"
+                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Brake Maintenance</h3>
+                        <p class="cs-item-text">Ensure safety with our brake maintenance! Trust our experts for thorough brake inspections and maintenance to keep your vehicle stopping smoothly.</p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon"
+                                src="svgs/aircondition.svg"
+                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">AC Repair Service</h3>
+                        <p class="cs-item-text">Stay cool with our efficient AC repair services! Our skilled technicians will diagnose and fix your vehicle's AC issues, ensuring a comfortable ride even on the hottest days.</p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon"
+                                src="svgs/motoroil.svg" loading="lazy"
+                                decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Oil Filter Change</h3>
+                        <p class="cs-item-text">Experience swift and dependable oil changes to prevent excessive wear on your engine.</p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon"
+                                src="svgs/wheel.svg" loading="lazy"
+                                decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Tire Rotations</h3>
+                        <p class="cs-item-text">"Enhance tire longevity with our rotation services! We provide quick and effective tire rotations to extend the lifespan of your tires.</p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-picture">
+                        <img class="cs-icon"
+                                src="svgs/exhaust.svg"
+                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Emissions Testing</h3>
+                        <p class="cs-item-text">Efficient emissions testing for your convenience! We offer quick and reliable emissions testing services to ensure your vehicle complies with environmental regulations.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="" class="cs-button-solid">Book Appointment</a>
     </div>
 </section>
 
@@ -227,107 +236,88 @@ for (const item of dropDowns) {
     </picture>
 </section>
                                 
-
 <!-- ============================================ -->
 <!--                   Services                   -->
-<!-- ============================================ -->        
+<!-- ============================================ -->
 
-<section id="services-1191">
+<section id="services-1179">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Other services</span>
-            <h2 class="cs-title">We Provide Quality Auto Repair Services</h2>
+            <span class="cs-topper">Our services</span>
+            <h2 class="cs-title">We'll Get You Back on the Road in No Time!</h2>
             <p class="cs-text">
-                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar.
+                From routine maintenance to customized car modifications, we provide excellant service in as little of time as possible. 
             </p>
         </div>
-        <!--Placed in a wrapper div so we can position the car absolutely inside the container to be centered in the middle of the list on desktop-->
-        <div class="cs-wrapper">
-            <!--Car-->
-            <picture class="cs-image">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/nice-car.png">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/nice-car.png">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/nice-car.png" alt="car" width="510" height="193" aria-hidden="true">
-            </picture>
-            <ul class="cs-card-group">
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/engineering%201%20red.svg"
-                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Check Engine Light</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/brake-red.svg"
-                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Brake Repair Service</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/air-conditioner-red.svg"
-                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">AC Repair Service</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/motor%201%20red.svg" loading="lazy"
-                                decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Oil Filter Change</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel-red.svg" loading="lazy"
-                                decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Changing Wheel</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-picture">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/contamination-red.svg"
-                                loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Emissions Repair</h3>
-                        <p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <a href="" class="cs-button-solid">Book Appointment</a>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg"
+                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
+                </picture>
+                <h2 class="cs-h2">Tire and wheel</h2>
+                <p class="cs-item-text">
+                    Tire installation, rotations, pressure checks and more! We offer a number of tire and wheel services for both repair and maintenance of your vehicle. 
+                </p>
+                <a href="detailedservice.html" class="cs-link">
+                    Learn More
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg"
+                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
+                </picture>
+                <h2 class="cs-h2">Electrical system</h2>
+                <p class="cs-item-text">
+                    From battery testing to lighting system repairs, our expert technicians have you covered. Trust us for reliable electrical solutions.
+                </p>
+                <a href="detailedservice.html" class="cs-link">
+                    Learn More
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg"
+                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
+                </picture>
+                <h2 class="cs-h2">Transmission Repair</h2>
+                <p class="cs-item-text">
+                    Our experts offer a wide range of solutions, from basic maintenance to intricate repairs. Count on us for reliable transmission care."
+                </p>
+                <a href="detailedservice.html" class="cs-link">
+                    Learn More
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-gear.svg"
+                        alt="icon" aria-hidden="true" decoding="async" width="52" height="52" />
+                </picture>
+                <h2 class="cs-h2">Engine diagnostics</h2>
+                <p class="cs-item-text">
+                    Our comprehensive services cover everything from basic checks to in-depth diagnostics. Count on us for accurate assessments of your vehicle's engine health."
+                </p>
+                <a href="detailedservice.html" class="cs-link">
+                    Learn More
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+        </ul>
     </div>
 </section>
+
                                 
 
 <!-- ============================================ -->
